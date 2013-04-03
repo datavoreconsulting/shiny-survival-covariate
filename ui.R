@@ -12,7 +12,7 @@ shinyUI(pageWithSidebar(
                 min = 2,
                 max = 24,
                 value = 2,
-                animate = animationOptions(interval=1000, loop=TRUE)
+                animate = animationOptions(interval=800, loop=TRUE)
     )
   ), 
   
