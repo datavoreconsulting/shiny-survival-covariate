@@ -7,15 +7,13 @@ shinyUI(pageWithSidebar(
   headerPanel(""),
   
   sidebarPanel(
-    wellPanel(
-      sliderInput(inputId = "starve",
-                  label = "Starvation period (hrs)",
-                  min = 2,
-                  max = 24,
-                  value = 2,
-                  animate = animationOptions(interval=1000, loop=TRUE)
-                  )
-        )
+    sliderInput(inputId = "starve",
+                label = "Starvation period (hrs)",
+                min = 2,
+                max = 24,
+                value = 2,
+                animate = animationOptions(interval=1000, loop=TRUE)
+    )
   ), 
   
   mainPanel(
