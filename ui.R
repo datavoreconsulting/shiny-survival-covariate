@@ -15,10 +15,7 @@ shinyUI(pageWithSidebar(
                   value = 2,
                   animate = animationOptions(interval=1000, loop=TRUE)
                   )
-        ),
-    wellPanel(
-      HTML('<p><a href = "http://www.datavoreconsulting.com" target="_blank"><img src="DatavoreLogo-RGB.png" width = "216" height = "80"/></a></p>')
-      )
+        )
   ), 
   
   mainPanel(
