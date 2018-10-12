@@ -1,5 +1,4 @@
-Interactive visualization of survival curves with Shiny
-========================================================
+## Interactive visualization of survival curves with Shiny
 
-Code and data used to create Shiny app described in blog post at http://datavoreconsulting.com/programming-tips/interactive-visualization-survival-curves-shiny/ 
+Code and data used to create small [Shiny app](https://hinkelman.shinyapps.io/shiny-survival-covariate/) described in [blog post](http://datavoreconsulting.com/programming-tips/interactive-visualization-survival-curves-shiny/). 
 
