@@ -1,8 +1,9 @@
 library(shiny)
+library(dplyr)
 library(survival)
 
-myData = read.csv("PRTData.csv")
-myData$Aphid = relevel(myData$Aphid, ref = "pea")
+myData = read.csv("PRTData.csv") |> 
+  mutate(Aphid = factor(Aphid, levels = c("pea", "bean")))
 model = coxph(Surv(PRT,NotCensored) ~ Aphid*Starve, data = myData)
 
 shinyServer(function(input, output) {
