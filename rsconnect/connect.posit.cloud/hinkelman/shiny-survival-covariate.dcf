@@ -1,0 +1,10 @@
+name: shiny-survival-covariate
+title: shiny-survival-covariate
+username: hinkelman
+account: hinkelman
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a0f410-6227-beba-1782-c260dda96406
+bundleId:
+url: https://connect.posit.cloud/hinkelman/content/01a0f410-6227-beba-1782-c260dda96406
+version: 1
